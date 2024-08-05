@@ -15,6 +15,7 @@ namespace UnitTestingExercise
         public int Add(int num1, int num2, int num3)
         {
             return num1 + num2 + num3;
+            
         }
 
 
@@ -25,21 +26,34 @@ namespace UnitTestingExercise
         // Create a Subtract method that accepts 2 integers
         // Keep track of which number is getting passed as minuend and subtrahend
 
+        public int Subtract(int minuend, int subrahend)
+        {
+            return minuend - subrahend;
+        }
+
 
         // Step 5: Navigate to the UnitTests.cs file and complete the SubtractTest unit test method
 
 
         // Step 6: 
         // Create a Multiply method that passes 2 integers
-
-
         // Step 7: Navigate to the UnitTests.cs file and complete the MultiplyTest unit test method 
 
-
+        public int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        
+        
         // Step 8: 
         // Create a Divide method that passes 2 integers
 
-        // Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method 
+        // Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method
+
+        public double Divide(int num1, int num2)
+        {
+            return num1 / num2;
+        }
 
 
         //*****NOW RUN ALL OF YOUR TESTS*********//
